@@ -1,3 +1,6 @@
+/**
+ * Useful, frankly indispensable constant functions.
+ */
 var fs = require('fs');
 filedata = fs.readFileSync('./constant.js','utf8');
 eval(filedata);

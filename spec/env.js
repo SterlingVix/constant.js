@@ -1,6 +1,6 @@
 global.expect = require('chai').expect;
 
-var constant = require('../index.js');
+var constant = require('../index');
 global.nFactorial = constant.nFactorial;
 global.isPrime = constant.isPrime;
 global.fibonacci = constant.fibonacci;
