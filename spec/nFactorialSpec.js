@@ -28,8 +28,8 @@ describe('nFactorial', function() {
       expect(nFactorial(6)).to.equal(720);
    });
 
-   it('should return 4032 when given 8 as an argument', function() {
-      expect(nFactorial(8)).to.equal(4032);
+   it('should return 40320 when given 8 as an argument', function() {
+      expect(nFactorial(8)).to.equal(40320);
    });
 
    it('should return 362880 when given 9 as an argument', function() {
